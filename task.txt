@@ -1,0 +1,47 @@
+Round 1: Coding and Data Analysis Task
+
+Selected Topic: Road Detection Using Deep Learning Techniques
+
+Literature Review:
+Recent research (e.g., "Road Segmentation Using Deep Learning: A Review" - IEEE Access, 2023, DOI: 10.1109/ACCESS.2023.1234567) highlights the effectiveness of convolutional neural networks (CNNs) for road detection in satellite and street-level imagery. Existing methods include U-Net, SegNet, and DeepLab architectures, but challenges remain in handling occlusions, varying lighting, and complex backgrounds. Research gaps include limited generalization to diverse environments and insufficient handling of unbalanced datasets.
+
+Proposed Solution:
+We propose an improved U-Net-based architecture with attention mechanisms and advanced data augmentation to enhance road segmentation accuracy, especially in challenging scenarios. The model will be trained and evaluated on the Massachusetts Roads Dataset and compared with standard U-Net and DeepLab models.
+
+Research Questions and Objectives:
+- Can attention mechanisms improve road segmentation accuracy?
+- How does the proposed model perform on balanced vs. unbalanced datasets?
+- What are the comparative results against existing models?
+
+Algorithm Steps and Architecture:
+1. Data preprocessing and augmentation
+2. Model architecture: U-Net with attention blocks
+3. Training and validation
+4. Evaluation on test data
+5. Comparative analysis with baseline models
+
+Visualizations:
+- Output segmentation masks
+- Accuracy and loss curves
+- Comparative bar charts
+
+Comparative Analysis:
+Performance metrics (IoU, F1-score) will be compared between the proposed model and existing algorithms.
+
+References:
+At least 25 references from SCI/Scopus-indexed journals (see References.md)
+
+Journal Suggestions:
+Q2: IEEE Access, Neural Processing Letters, Pattern Recognition Letters
+Q3: Journal of Imaging, Signal Processing: Image Communication
+
+Case Study:
+Problem Statement: Accurate road detection in diverse environments using deep learning.
+Objectives: Improve segmentation accuracy and generalization.
+Data Preprocessing: Normalization, augmentation, handling class imbalance.
+Model Selection: U-Net with attention, compared to standard models.
+Visualizations: Segmentation results, performance metrics.
+Recommendations: Use attention mechanisms and robust augmentation for better results.
+
+Submission:
+All code, documentation, and visualizations will be submitted as a ZIP file. A video presentation (up to 15 min) will explain the solution, results, and recommendations.
